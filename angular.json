@@ -25,7 +25,9 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/flex.css",
+              "src/fontawesome/css/all.css"
             ]
           },
           "configurations": {

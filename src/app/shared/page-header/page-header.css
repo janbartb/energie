@@ -1,0 +1,35 @@
+.page-header {
+    height: 5em;
+    background-color: #102511;
+}
+
+.page-title {
+    color: #dbefdc;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5em;
+}
+.page-subtitle {
+    /* line-height: 1.5em; */
+    text-align: center;
+}
+.page-subtitle span {
+    color: #f4faf4;
+    font-size: .75em;
+    font-weight: bold;
+}
+
+.header-btn {
+    color: #b7dfb8;
+    cursor: pointer;
+}
+.header-btn:hover {
+    color: #f4faf4;
+    transform: scale(1.25);
+}
+
+@media print {
+    .page-header {
+        display: none;
+    }
+}

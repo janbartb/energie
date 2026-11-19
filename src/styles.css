@@ -1,1 +1,28 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana,sans-serif;
+    line-height: 1.25;
+}
+
+* { 
+    box-sizing: border-box;
+    letter-spacing: -.075em;
+}
+
+.fullviewheight { height: 100vh; }
+.fullheight { height: 100%; max-height: 100%; }
+
+.arial { font-family: Arial, Helvetica, sans-serif; }
+.arial-nw { font-family: "Arial Narrow"; }
+
+.ellipsis {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

@@ -1,0 +1,27 @@
+@if (header.subtitle != 'home') {
+    <div class="page-header flexbox">
+        <div class="flex25perc flexbox">
+            <div style="padding-top: .2em;">
+                <img src="images/roothans-sm.png" alt="" style="cursor: pointer;" (click)="homeClicked()">
+            </div>
+        </div>
+        <div class="flex50perc">
+            <div class="page-title">
+                <span>{{header.title}}</span>
+            </div>
+            <div class="page-subtitle">
+                <span>{{header.subtitle}}</span>
+                @if (header.datum != '') {
+                    <span style="font-weight: normal; padding-left: 1em;">({{header.datum}})</span>
+                }
+            </div>
+        </div>
+        <div class="flex25perc flexbox flexright flexmiddle">
+            <div style="color: #dbefdc; padding-right: 1em;">
+                @if (header.seizoen != '') {
+                    <span style="font-size: 1.5em; cursor: pointer;" (click)="seizoenClicked()">{{header.seizoen}}</span>
+               }
+            </div>
+        </div>
+    </div>
+}
